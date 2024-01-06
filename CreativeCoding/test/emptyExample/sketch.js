@@ -1,7 +1,7 @@
-function setup() {
+function setup() {//runs one time
 
 }
 
-function draw() {
+function draw() {// runs in a loop
 
 }

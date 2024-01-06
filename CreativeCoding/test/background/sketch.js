@@ -1,8 +1,8 @@
-function setup() {
-createCanvas (windowWidth, windowHeight);
-background (125);
+function setup() {//runs one time
+createCanvas (windowWidth, windowHeight);//canvas sized to window
+background ('red');//red background
 }
 
-function draw() {
+function draw() {// runs in a loop
 
 }
