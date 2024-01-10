@@ -1,7 +1,7 @@
 let gif;
 
 function preload (){
-gif = load Image ('assets/RileyGIF.gif');
+gif = loadImage ('assets/RileyGIF.gif');
 }
 
 function setup() {
