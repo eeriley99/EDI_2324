@@ -1,7 +1,7 @@
 function setup() {
   //runs one time
   createCanvas(windowWidth, windowHeight);
-  fill('purple');
+  fill('magenta');
   strokeWeight(1);
 }
 
