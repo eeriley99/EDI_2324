@@ -1,0 +1,30 @@
+let gif;
+
+function preload (){
+gif = load Image ('assets/RileyGIF.gif');
+}
+
+function setup() {
+  //runs one time
+  createCanvas(windowWidth, windowHeight);
+  fill('red');
+  strokeWeight(1);
+}
+
+function draw() {
+  //runs in a loop
+  
+  var num = 50;
+  var sideLen = windowWidth/num;
+
+  for (var y = 0; y < windowHeight; y = y + sideLen) {
+    //loop to create a grid in the y direction
+
+    for (var x = 0; x < windowWidth; x = x + sideLen) {
+    image (gif, x, y, sideLen, sideLen);
+  }
+}
+
+function windowResized(){
+  resizeCanvas (windowWidth, windowHeight);
+}
