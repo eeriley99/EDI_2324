@@ -36,6 +36,7 @@ p{
     transform: translateX(-50%) translateY(-50%);
     text-align:center;
     top: 5%;
+    display: inline; background: Lavender;
 }
 
 table{
