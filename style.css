@@ -16,7 +16,6 @@ img {
 
 h1{
   color: black;
-  display: inline; background: yellow;
      position: absolute;
      left: 50%;
      transform: translateX(-50%) translateY(-50%);
@@ -49,12 +48,6 @@ td {
     padding-top:10px;
     text-align:center;
 
-    &:after, &:before {
-        content: '';
-
-        display: block;
-        padding-bottom: calc(50% - 0.5em);
-    }
 }
 
 .container{
