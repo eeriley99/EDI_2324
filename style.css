@@ -21,7 +21,12 @@ h1{
      transform: translateX(-50%) translateY(-50%);
      text-align: center;
      top: 0%;
-     display: inline; background: yellow;
+     display: inline; background: Lavender;
+}
+
+h3{
+color: red;
+display: inline; background: Lavender;
 }
 
 p{
