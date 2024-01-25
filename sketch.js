@@ -9,7 +9,7 @@ gif = loadImage ('assets/RileyGIF.gif');
 function setup() {
   //runs one time
   createCanvas(windowWidth, windowHeight);
-  cursor('https://eeriley99.github.io/code_sketchbook/icons-master/cursor.gif');
+  cursor('assets/explode.png');
   fill('magenta');
   strokeWeight(1);
 }
