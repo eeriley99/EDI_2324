@@ -9,15 +9,16 @@ gif = loadImage ('assets/RileyGIF.gif');
 function setup() {
   //runs one time
   createCanvas(windowWidth, windowHeight);
+  cursor('https://eeriley99.github.io/code_sketchbook/icons-master/cursor.gif');
   fill('magenta');
   strokeWeight(1);
 }
 
 function draw() {
   //runs in a loop
-  
+
   background ('red');
-  
+
   var num = 50;
   var sideLen = windowWidth/num;
 
