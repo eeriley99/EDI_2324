@@ -37,7 +37,7 @@ p{
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     text-align:center;
-    top: 3vw;
+    top: 4vw;
     display: inline; background: rgb(191, 148, 228);
     font-size:1.5vw;
 }
@@ -46,7 +46,7 @@ table{
   position: absolute;
   z-index: 1;
   width:100%;
-  top: 5vw;
+  top: 5.5vw;
 }
 
 td {
