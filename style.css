@@ -3,7 +3,6 @@ html, body {
   padding: 0;
   font-family: 'Roboto', sans-serif;
   background-color: rgb(255,255,255);
-  display: inline; background: Lavender;
 }
 
 canvas {
@@ -21,8 +20,14 @@ h1{
      left: 50%;
      transform: translateX(-50%) translateY(-50%);
      text-align: center;
-     top: 0%;
+     top: 1vw;
      font-size:3vw;
+       display: inline; background: Lavender;
+}
+
+h3 {
+display: inline; background: Lavender;
+font-size:2vw;
 }
 
 
@@ -32,14 +37,16 @@ p{
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     text-align:center;
-    top: 5%;
+    top: 4vw;
+    font-size:1.5vw;
+    
 }
 
 table{
   position: absolute;
   z-index: 1;
   width:100%;
-  top: 10%;
+  top: 5.5vw;
 }
 
 td {
