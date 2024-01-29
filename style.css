@@ -2,6 +2,8 @@
 html, body {
   margin: 0;
   padding: 0;
+  height: 100%; 
+  overflow: hidden;
   font-family: 'Courier Prime', monospace;
   background-color: rgb(191, 148, 228);
   font-family: 'Edu SA Beginner', cursive;
@@ -54,8 +56,8 @@ table{
 }
 
 td {
-    width: 33vw;
-    height: 33vw;
+    width: 25vw;
+    height: 25vw;
     vertical-align: baseline;
     padding-top:10px;
     text-align:center;
