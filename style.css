@@ -1,3 +1,4 @@
+
 html, body {
   margin: 0;
   padding: 0;
@@ -10,6 +11,7 @@ font-family: 'Roboto', sans-serif;
 canvas {
   display: block;
   z-index: -1;
+  width:100%;
 }
 
 img {
@@ -59,16 +61,3 @@ td {
     text-align:center;
 }
 
-.container{
-  position: relative;
-}
-
-.project {
-  position: absolute;
-  width:50%;
-  float: left;
-
-  left: 0px;
-  top: 0px;
-  z-index: 1;
-}
