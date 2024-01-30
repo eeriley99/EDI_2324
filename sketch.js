@@ -9,7 +9,6 @@ gif = loadImage ('assets/RileyGIF.gif');
 function setup() {
   //runs one time
   createCanvas(windowWidth, windowHeight);
-  cursor('assets/explode.png');
   fill('magenta');
   strokeWeight(1);
 }
